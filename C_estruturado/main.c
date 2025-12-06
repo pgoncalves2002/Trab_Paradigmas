@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
+#include <locale.h>
+#include <windows.h>
+
 
 #define MAX_VAGAS 10
 #define TAM_PLACA 10
@@ -188,6 +191,9 @@ void mostrarStatus() {
 }
 
 int main() {
+    setlocale(LC_ALL, "pt_BR.UTF-8");
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
     int op;
     inicializar();
 
