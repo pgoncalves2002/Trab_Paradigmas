@@ -2,7 +2,7 @@ from datetime import datetime
 import math
 
 # Configurações
-MAX_VAGAS = 10
+MAX_VAGAS = 1
 TARIFA_HORA = 5.0
 
 # 1 = usar hora/minuto atual automaticamente

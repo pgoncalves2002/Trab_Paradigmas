@@ -8,10 +8,17 @@ def main():
         print("1 - Registrar entrada")
         print("2 - Registrar saída")
         print("3 - Listar vagas ocupadas")
+        print("4 - Mostrar status geral")
         print("0 - Sair")
         op = input("Opção: ")
 
         if op == "1":
+            # VERIFICA PRIMEIRO SE TEM VAGA LIVRE
+            vaga_livre = est.encontrar_vaga_livre()
+            if vaga_livre == -1:
+                print("Estacionamento cheio")
+                continue
+
             placa = input("Placa: ")
             tipo = input("Tipo (P/G): ")
             vaga = est.registrar_entrada(placa, tipo)
@@ -42,10 +49,19 @@ def main():
                 print("Nenhuma vaga ocupada.")
             else:
                 for v in lista:
-                    linha = f"Vaga {v['vaga']} - Placa {v['placa']} - Tipo {v['tipo']} - Entrada {v['hora']:02d}h{v['minuto']:02d}"
+                    linha = (
+                        f"Vaga {v['vaga']} - Placa {v['placa']} - Tipo {v['tipo']} "
+                        f"- Entrada {v['hora']:02d}h{v['minuto']:02d}"
+                    )
                     if 'tempo_h' in v:
                         linha += f" | Permanência: {v['tempo_h']}h {v['tempo_m']}min"
                     print(linha)
+
+        elif op == "4":
+            status = est.status_geral()
+            print(f"Total de vagas: {status['total']}")
+            print(f"Vagas livres: {status['livres']}")
+            print(f"Vagas ocupadas: {status['ocupadas']}")
 
         elif op == "0":
             print("Saindo...")

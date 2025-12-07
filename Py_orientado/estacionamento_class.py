@@ -5,7 +5,7 @@ MODO_HORA_ENTRADA = 1
 MODO_HORA_SAIDA = 1
 TOLERANCIA_MINUTOS = 15
 TARIFA_HORA = 5.0
-MAX_VAGAS = 10
+MAX_VAGAS = 1
 
 class Estacionamento:
     def __init__(self):
@@ -90,3 +90,13 @@ class Estacionamento:
                     info["tempo_m"] = tempo % 60
                 lista.append(info)
         return lista
+
+    def status_geral(self):
+        total = MAX_VAGAS
+        livres = sum(1 for v in self.vagas if v is None)
+        ocupadas = total - livres
+        return {
+            "total": total,
+            "livres": livres,
+            "ocupadas": ocupadas
+        }

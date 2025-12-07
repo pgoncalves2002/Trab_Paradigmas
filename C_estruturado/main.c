@@ -5,7 +5,7 @@
 #include <windows.h>
 
 
-#define MAX_VAGAS 10
+#define MAX_VAGAS 1
 #define TAM_PLACA 10
 #define TARIFA_HORA 5.0
 

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cc66d65-9215-4acb-9caf-057f9e7db74d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Py_estruturado/.idea/Py_estruturado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Py_estruturado/.idea/Py_estruturado.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Py_estruturado/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Py_estruturado/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Py_orientado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Py_orientado.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_estruturado/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../C_estruturado/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_orientado/src/Estacionamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_orientado/src/Estacionamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Py_estruturado/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Py_estruturado/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estacionamento_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/estacionamento_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.estacionamento_class.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -74,6 +76,8 @@
       <workItem from="1764715951452" duration="100000" />
       <workItem from="1764793516441" duration="91000" />
       <workItem from="1764806574532" duration="3096000" />
+      <workItem from="1765144150865" duration="2565000" />
+      <workItem from="1765148395696" duration="298000" />
     </task>
     <servers />
   </component>
@@ -81,7 +85,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Py_orientado$main.coverage" NAME="main Coverage Results" MODIFIED="1764809483526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Py_orientado$estacionamento_class.coverage" NAME="estacionamento_class Coverage Results" MODIFIED="1765145001816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Py_orientado$main.coverage" NAME="main Coverage Results" MODIFIED="1765145215217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

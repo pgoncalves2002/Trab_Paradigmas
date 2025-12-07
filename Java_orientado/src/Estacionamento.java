@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Estacionamento {
 
-    private static final int MAX_VAGAS = 10;
+    private static final int MAX_VAGAS = 1;
     private static final double TARIFA_HORA = 5.0;
 
     // 1 = usar hora/minuto atual automaticamente
